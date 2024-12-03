@@ -1,6 +1,7 @@
 body {
     background: rgb(178,45,255);
 background: linear-gradient(90deg, rgba(178,45,255,1) 0%, rgba(246,144,221,1) 35%, rgba(249,186,37,1) 100%);
+margin-left: 1px;
 }
 
 header {
