@@ -1,13 +1,14 @@
 body {
-    background: rgb(178,45,255);
-background: linear-gradient(90deg, rgba(178,45,255,1) 0%, rgba(246,144,221,1) 35%, rgba(249,186,37,1) 100%);
+    background: rgb(178, 45, 255);
+    background: linear-gradient(90deg, rgba(178, 45, 255, 1) 0%, rgba(246, 144, 221, 1) 35%, rgba(249, 186, 37, 1) 100%);
 }
 
 header {
     display: flex;
     justify-content: center;
 }
- .nav_lista {
+
+.nav_lista {
     display: flex;   
     list-style: none;
     font-size: 40px;
@@ -15,40 +16,45 @@ header {
     gap: 20px;
     text-transform: uppercase;
     justify-content: center;
-    }
-   .nav_item:hover{
-      background-color: rgb(255, 255, 255);
-      color: rgb(102, 34, 228);
-      cursor: pointer;
-   }
+}
+
+.nav_item {
+    padding: 10px; /* Adicionei algum padding para melhorar a aparência */
+}
+
+.nav_item:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 34, 228);
+    cursor: pointer;
+}
 
 section {
     width: 100%;
     padding-left: 8%;
-   }
+}
 
-.secao{
+.secao {
     padding-right: 8%;
     padding-top: 2%;
 }
 
-.moldura_videos{
+.moldura_videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
 }
 
-.video{
-    flex: 1 1 30%;
+.video {
+    width: 300px; /* Defina um valor apropriado para a largura */
     margin: 10px;
 }
 
 .video iframe {
     width: 100%;
+    height: 200px; /* Adicionei uma altura para o iframe */
     right: auto;
     border-radius: 15px;
-
 }
 
 * {
