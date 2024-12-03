@@ -47,6 +47,7 @@ section {
 
 .video {
     width: 300px; /* Defina um valor apropriado para a largura */
+    height: 300px;
     margin: 10px;
 }
 
